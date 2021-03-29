@@ -1,0 +1,89 @@
+COMANDOS GIT
+
+INICIAR:
+
+    Antes de instalarlo se debe actualizar el apt con los permisos de administrador (sudo)
+    
+    1. sudo apt-get update
+    
+    ahora se debe instalar GIT
+
+    2. sudo apt-get install GIT
+
+    verificamos la vesion instalada 
+
+    3. git --version
+
+Escoger la CARPETA para realizar la gestion versiones con GIT utilizando el siguiente comando 
+
+    1. git init
+
+
+CONFIGURAR GIT
+
+    Mostrar todas las cofiguraciones posibles que tiene GIT
+    
+    1. git config
+
+    mostrar la configuración por defecto de mi GIT
+
+    2. git config --list
+
+
+    mostrat la ruta donde queda guardada la configuración de nuestro GIT
+
+    3. git config --list --show-origin
+
+    guardar el NOMBRE DE USURAIO de la configuración de git
+
+    4. git config --global user.name "MI NOMBRE DE USUARIO"
+
+    guardar el E-MAIL de la configuración de git
+
+    5. git config --global user.email "mi@correo.com"
+
+
+ver el ESTATUS actual de nuestro gestion de versiones
+
+    1. git status 
+
+
+
+
+
+MOSTRAR EL HISTORIAL DEL git
+
+    1. git log nombre_del_archivo.txt
+
+MOSTRAR los CAMBIOS que han existido en un archivo
+
+    1. git show nombre_del_archivo.txt
+
+ MUESTRA los cambios que se realixaron de un archivo a otro
+
+    1. git diff codigo_de_version_commit codigo_de_version_commit 
+
+
+
+
+AGREGAR archivos a git 
+
+    1. git add nombre_del_archivo.txt
+
+
+AGREGAR todos los archivos de la carpeta a git 
+
+    1. git add .
+
+
+ELIMINAR archivos del git (solo si se quiere revertir un ADD)
+
+    1. git rm --cached nombre_del_archivo.txt
+
+
+Mandar los cambios al REPOSITORIO del archivo en cuestión incluyendo un mensaje -m
+
+    1. git commit -m "aqui va el mensaje guia"
+
+
+
