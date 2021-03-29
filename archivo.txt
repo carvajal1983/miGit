@@ -134,6 +134,10 @@ RETORNAR al contenido de una versión MASTER
 
 
 
+Desde ahora vamos a trabajar en una rama (branch)
+
+esto son aportes de estudiantes del curso:
+
 
 git log --oneline - Te muestra el id commit y el título del commit.
 git log --decorate- Te muestra donde se encuentra el head point en el log.
