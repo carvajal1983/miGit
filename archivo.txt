@@ -61,7 +61,7 @@ MOSTRAR los CAMBIOS que han existido en un archivo
 
  MUESTRA los cambios que se realixaron de un archivo a otro
 
-    1. git diff codigo_de_version_commit codigo_de_version_commit 
+    1. git diff indicador_del_commit_A indicador_del_commit_B 
 
 
 
@@ -84,4 +84,5 @@ ELIMINAR archivos del git (solo si se quiere revertir un ADD)
 Mandar los cambios al REPOSITORIO del archivo en cuestión incluyendo un mensaje -m
 
     1. git commit -m "aqui va el mensaje guia"
+
 
