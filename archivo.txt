@@ -129,8 +129,18 @@ RETORNAR al contenido de una versión MASTER
 
     2. git checkout master archivo.txt
 
+MOVERSE A UNA RAMA (BRANCH)
+
+    1. git checkout rama1 
 
 
+
+
+CREAR RAMAS (BRANCH)
+
+    1. git branch nombr_de_la_rama
+
+    
 
 
 
