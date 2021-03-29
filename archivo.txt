@@ -85,8 +85,3 @@ Mandar los cambios al REPOSITORIO del archivo en cuestión incluyendo un mensaje
 
     1. git commit -m "aqui va el mensaje guia"
 
-
-
-este es un mensaje 
-que esta mal 
-y debe ser eliminado
