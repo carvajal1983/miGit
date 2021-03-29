@@ -129,7 +129,7 @@ RETORNAR al contenido de una versión MASTER
 
     2. git checkout master archivo.txt
 
-MOVERSE A UNA RAMA (BRANCH)
+# MOVERSE A UNA RAMA (BRANCH)
 
     1. git checkout rama1 
 
@@ -140,7 +140,23 @@ CREAR RAMAS (BRANCH)
 
     1. git branch nombr_de_la_rama
 
+
+
+***** PASO PARA FUSIONAR EL MASTER Y LAS RAMAS *****
+
+# Crear un nuevo commit en la rama master combinando
+# los cambios de la rama
+
+    1. git checkout master
+    2. git merge nombre_de_la_rama
+
+# Crear un nuevo commit en la rama cabecera combinando
+# los cambios de cualquier otra rama:
     
+    1. git checkout cabecera
+    2. git merge cualquier-otra-rama   
+
+*******************************************************
 
 
 
