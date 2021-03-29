@@ -43,25 +43,35 @@ CONFIGURAR GIT
     5. git config --global user.email "mi@correo.com"
 
 
-ver el ESTATUS actual de nuestro gestion de versiones
+
+MOSTRAR el ESTATUS actual de nuestro gestion de versiones
 
     1. git status 
-
-
-
-
 
 MOSTRAR EL HISTORIAL DEL git
 
     1. git log nombre_del_archivo.txt
 
+MUESTRA los cambio con detalle de bits
+
+    2. git log --stat
+
 MOSTRAR los CAMBIOS que han existido en un archivo
 
     1. git show nombre_del_archivo.txt
 
- MUESTRA los cambios que se realixaron de un archivo a otro
+ MUESTRA los cambios que se realizaron de un archivo a otro
 
     1. git diff indicador_del_commit_A indicador_del_commit_B 
+
+RETORNAR al contenido de una versión X
+
+    1. git checkout INDICADOR nombre_del_archivo.txt
+
+RETORNAR al contenido de una versión MASTER
+
+    2. git checkout master archivo.txt
+
 
 
 
