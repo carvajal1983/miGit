@@ -152,3 +152,8 @@ git log --grep=“INVIE” –i- Busca los commits que cumplan sin importar may�
 git log – index.html- Busca los commits en un archivo en específico.
 git log -S “Por contenido”- Buscar los commits con el contenido dentro del archivo.
 git log > log.txt - guardar l
+
+
+
+
+Voy a guardar unos cambios en el Master a ver que pasa.
