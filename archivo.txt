@@ -1,5 +1,7 @@
 COMANDOS GIT y GITHUB
 
+GITHB: mi primer cambio
+
 INICIAR:
 
     Antes de instalarlo se debe actualizar el apt con los permisos de administrador (sudo)
