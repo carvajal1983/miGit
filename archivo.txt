@@ -188,4 +188,44 @@ git log > log.txt - guardar l
 
 
 
-Voy a guardar unos cambios en el Master a ver que pasa.
+
+************************************* Uso de GitHub *************************************
+
+# Para clonar un repositorio desde GitHub (o cualquier otro servidor remoto) debemos copiar la URL 
+# (por ahora, usando HTTPS) y ejecutar el comando 
+
+    1. git remote add origin URL
+
+# Esto descargara la versión de nuestro proyecto que se encuentra en GitHub.
+
+
+---------------------- PASO A PASO ----------------------
+
+# Primero: Guardar la URL del repositorio de GitHub
+# con el nombre de origin
+
+    git remote add origin URL
+
+# Segundo: Verificar que la URL se haya guardado
+# correctamente:
+
+    git remote
+    git remote -v
+
+# Tercero: Traer la versión del repositorio remoto y
+# hacer merge para crear un commit con los archivos
+# de ambas partes. Podemos usar git fetch y git merge
+# o solo el git pull con el flag --allow-unrelated-histories:
+
+    git pull origin master --allow-unrelated-histories
+
+# Por último, ahora sí podemos hacer git push para guardar
+# los cambios de nuestro repositorio local en GitHub:
+
+    git push origin master
+
+-----------------------------------------------------------
+
+
+*****************************************************************************************
+
